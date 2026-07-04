@@ -59,6 +59,31 @@ Index utama untuk semua project coding di vault ini.
 | [[Toko Curhat]] | `~/crewet/tokocurhat/` | Deno, Deno KV, zero dependency | Anonymous curhat app | Completed |
 | [[VPS Projects]] | `/var/www` inventory | Mixed PHP, Node.js, Next.js, Supabase, MySQL, SQLite | VPS inventory | Completed inventory |
 
+
+## Current Apache Vhost Projects — 2026-07-05
+
+| Project | Domain | Source / Path | Main Tech Stack | Type | Status |
+|---|---|---|---|---|---|
+| [[AIDIS Disposisi Surat]] | `aidis.my.id` | `/var/www/aidis.my.id` | PHP Native, Composer | disposisi surat / admin system | active |
+| [[Al-Barokah]] | `al-barokah.my.id` | `/var/www/al-barokah.my.id` | PHP Native, Composer | masjid website/admin system | active |
+| [[Arisan PKK]] | `arisanpkk.web.id` | `/var/www/arisanpkk.web.id` | Vite, TypeScript, Node runtime proxy | pkk activity app | active |
+| [[SIMPEL-U Telegram Bot]] | `bot.shm.my.id` | `/var/www/bot.shm.my.id` | Node.js, TypeScript, Python requirements | telegram bot / pi sdk | active |
+| [[BotJB Nanariset]] | `botjb.nanariset.my.id` | `/var/www/botjb.nanariset.my.id` | Static/PHP public_html plus local app proxy | bot / web utility | active |
+| [[Brainboard SocAI]] | `brainboard.socai.my.id` | `/var/www/brainboard.socai.my.id` | Laravel, PHP, Composer, Vite build assets | laravel web app | active |
+| [[Cmaestro BengkelBot]] | `cmaestro.my.id` | `/var/www/cmaestro.my.id` | Node.js, package repo, Apache proxy | bot / web service | active |
+| [[Dompet Bitget]] | `dompet.lelangu.my.id` | `/var/www/dompet.lelangu.my.id` | Node.js fullstack, backend/frontend packages | crypto wallet/dashboard | active |
+| [[EduGuide SocAI]] | `eduguide.socai.my.id` | `/var/www/eduguide.socai.my.id` | Split frontend/backend reverse proxy | education guide app | active |
+| [[Fetal PJD]] | `fetal.pjdigital.top` | `/home/ubuntu/deploy_fetal/app/resiko_kehamilan` | Flask, Gunicorn, scikit-learn, SHAP, pandas | maternal/fetal risk prediction app | active |
+| [[CLAW Invoice]] | `inv.nanariset.my.id` | `/var/www/inv.nanariset.my.id` | Static/PHP invoice workspace plus API proxy | invoice / content workspace | active |
+| [[Kausar Leather]] | `kl.socai.my.id` | `/var/www/kl.socai.my.id` | PHP Native, MySQL likely, admin/dashboard folders | landing/admin commerce site | active |
+| [[Quizify SocAI]] | `quizify.socai.my.id` | `/var/www/quizify.socai.my.id` | Laravel, PHP, Composer, Vite | quiz / learning app | active |
+| [[SafeSphere]] | `safesphere.my.id` | `/var/www/safesphere.my.id` | Static frontend, Node/Express API, SQLite (from prior scan) | anti-bullying reporting app | active |
+| [[SIMPEL-U]] | `simpelu.my.id` | `/var/www/simpelu.my.id` | PHP/Laravel-like structure or custom PHP app | web application | active |
+| [[SJM Lelangu]] | `sjmlelang.com` | `/var/www/sjmlelang.com` | PHP Native auction platform | auction platform | active |
+| [[SocAI]] | `socai.my.id` | `/var/www/socai.my.id` | Node.js, autonomous AI social content app | ai content automation | active |
+| [[AI Study Buddy]] | `studdybuddy.socai.my.id` | `/var/www/studdybuddy.socai.my.id` | Laravel, MongoDB, Groq API | ai learning assistant | active |
+| [[VibePlan AI]] | `vibeplan.socai.my.id` | `/var/www/vibeplan.socai.my.id` | Next.js frontend, Laravel backend | ai planning app | active |
+
 ## By Language
 
 ### PHP

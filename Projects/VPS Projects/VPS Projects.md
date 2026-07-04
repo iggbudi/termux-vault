@@ -120,6 +120,40 @@ Vault Obsidian ini sendiri.
 8. [[Lelangu Bitcoin Chart]] — sisa vhost static chart dashboard.
 9. [[Nana Research]] — root domain nanariset.my.id dan shortener.
 
+
+## Apache Vhost Scan — 2026-07-05
+
+Sumber: `/etc/apache2/sites-enabled`, `/etc/apache2/sites-available`, dan marker file di `/var/www`. Default Apache vhost tidak dihitung sebagai project; total project vhost: **19**.
+
+| Project | Domain | Source / Root | Proxy | Stack / Marker | Status |
+|---|---|---|---|---|---|
+| [[AIDIS Disposisi Surat]] | `aidis.my.id` | `/var/www/aidis.my.id/public` | `-` | PHP Native, Composer | active |
+| [[Al-Barokah]] | `al-barokah.my.id` | `/var/www/al-barokah.my.id/public` | `-` | PHP Native, Composer | active |
+| [[Arisan PKK]] | `arisanpkk.web.id` | `/var/www/arisanpkk.web.id` | `http://localhost:3100/` | Vite, TypeScript, Node runtime proxy | active |
+| [[SIMPEL-U Telegram Bot]] | `bot.shm.my.id` | `/var/www/bot.shm.my.id` | `http://127.0.0.1:3107/` | Node.js, TypeScript, Python requirements | active |
+| [[BotJB Nanariset]] | `botjb.nanariset.my.id` | `/var/www/botjb.nanariset.my.id/public_html` | `http://127.0.0.1:3011/` | Static/PHP public_html plus local app proxy | active |
+| [[Brainboard SocAI]] | `brainboard.socai.my.id` | `/var/www/brainboard.socai.my.id/public` | `-` | Laravel, PHP, Composer, Vite build assets | active |
+| [[Cmaestro BengkelBot]] | `cmaestro.my.id` | `/var/www/cmaestro.my.id/public` | `http://127.0.0.1:3012/` | Node.js, package repo, Apache proxy | active |
+| [[Dompet Bitget]] | `dompet.lelangu.my.id` | `/var/www/dompet.lelangu.my.id` | `http://localhost:3456/` | Node.js fullstack, backend/frontend packages | active |
+| [[EduGuide SocAI]] | `eduguide.socai.my.id` | `/var/www/eduguide.socai.my.id` | `frontend 3003, api/storage 8003` | Split frontend/backend reverse proxy | active |
+| [[Fetal PJD]] | `fetal.pjdigital.top` | `/home/ubuntu/deploy_fetal/app/resiko_kehamilan` | `http://127.0.0.1:8000/` | Flask, Gunicorn, scikit-learn, SHAP, pandas | active |
+| [[CLAW Invoice]] | `inv.nanariset.my.id` | `/var/www/inv.nanariset.my.id/repo/invoice` | `api http://127.0.0.1:3001/api` | Static/PHP invoice workspace plus API proxy | active |
+| [[Kausar Leather]] | `kl.socai.my.id` | `/var/www/kl.socai.my.id` | `-` | PHP Native, MySQL likely, admin/dashboard folders | active |
+| [[Quizify SocAI]] | `quizify.socai.my.id` | `/var/www/quizify.socai.my.id/public` | `-` | Laravel, PHP, Composer, Vite | active |
+| [[SafeSphere]] | `safesphere.my.id` | `/var/www/safesphere.my.id/public` | `api http://127.0.0.1:3000/api/` | Static frontend, Node/Express API, SQLite (from prior scan) | active |
+| [[SIMPEL-U]] | `simpelu.my.id` | `/var/www/simpelu.my.id/public` | `-` | PHP/Laravel-like structure or custom PHP app | active |
+| [[SJM Lelangu]] | `sjmlelang.com` | `/var/www/sjmlelang.com` | `-` | PHP Native auction platform | active |
+| [[SocAI]] | `socai.my.id` | `/var/www/socai.my.id` | `http://127.0.0.1:3010/` | Node.js, autonomous AI social content app | active |
+| [[AI Study Buddy]] | `studdybuddy.socai.my.id` | `/var/www/studdybuddy.socai.my.id/public` | `-` | Laravel, MongoDB, Groq API | active |
+| [[VibePlan AI]] | `vibeplan.socai.my.id` | `/var/www/vibeplan.socai.my.id` | `frontend 3002, api/storage 8001` | Next.js frontend, Laravel backend | active |
+
+### Scan Notes
+
+- Semua project di atas berasal dari Apache enabled sites dan mayoritas punya pasangan SSL `-le-ssl.conf`.
+- `fetal.pjdigital.top` ditemukan: source berada di `/home/ubuntu/deploy_fetal/app/resiko_kehamilan`, berjalan lewat `fetal-flask.service` + Gunicorn `127.0.0.1:8000`.
+- Beberapa project adalah reverse proxy ke service lokal; cek process manager/systemd/PM2 sebelum restart.
+- Jangan menyalin isi `.env` atau secret ke vault.
+
 ## Next Actions
 
 - [x] Pilih project prioritas untuk dibuat note detail.

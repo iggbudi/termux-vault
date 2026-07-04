@@ -1,3 +1,29 @@
+---
+type: project-detail
+status: active
+title: "WA Dwibudi Multi-Device"
+slug: "wa-dwibudi-multi-device"
+updated: "2026-07-05"
+repo: ""
+source-path: "/var/www/wa.dwibudi.my.id"
+production-url: "https://wa.dwibudi.my.id"
+priority: high
+tags:
+  - project
+  - vps
+  - lang/javascript
+  - runtime/nodejs
+  - fw/express
+  - db/mariadb
+  - lib/baileys
+  - type/whatsapp-gateway
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # WA Dwibudi Multi-Device
 
 ## Overview

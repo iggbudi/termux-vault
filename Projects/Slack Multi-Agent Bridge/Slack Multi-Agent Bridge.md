@@ -1,3 +1,29 @@
+---
+type: project-detail
+status: active
+title: "Slack Multi-Agent Bridge"
+slug: "slack-multi-agent-bridge"
+updated: "2026-07-05"
+repo: "https://github.com/iggbudi/slack-multi-agent.git"
+source-path: "/var/www/bot.pjdigital.top"
+production-url: ""
+priority: high
+tags:
+  - project
+  - vps
+  - lang/typescript
+  - runtime/nodejs
+  - fw/express
+  - db/sqlite
+  - api/slack
+  - type/multi-agent
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # Slack Multi-Agent Bridge
 
 ## Overview

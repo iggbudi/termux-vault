@@ -1,3 +1,24 @@
+---
+type: project-detail
+status: maintained
+title: "VPS Projects"
+slug: "vps-projects"
+updated: "2026-07-05"
+repo: ""
+source-path: "/var/www"
+production-url: ""
+priority: medium
+tags:
+  - project
+  - vps
+  - inventory
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # VPS Projects
 
 ## Overview

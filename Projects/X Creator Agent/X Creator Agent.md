@@ -1,3 +1,29 @@
+---
+type: project-detail
+status: experimental
+title: "X Creator Agent"
+slug: "x-creator-agent"
+updated: "2026-07-05"
+repo: ""
+source-path: "/var/www/nanariset.my.id/xcreator"
+production-url: ""
+priority: medium
+tags:
+  - project
+  - vps
+  - lang/typescript
+  - fw/nextjs
+  - fw/tailwind
+  - db/sqlite
+  - lib/prisma
+  - type/multi-agent
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # X Creator Agent
 
 ## Overview

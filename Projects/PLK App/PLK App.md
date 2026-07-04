@@ -1,3 +1,26 @@
+---
+type: project-detail
+status: maintained
+title: "PLK App"
+slug: "plk-app"
+updated: "2026-07-05"
+repo: ""
+source-path: "~/belajar-typescript/"
+production-url: ""
+priority: medium
+tags:
+  - project
+  - lang/typescript
+  - fw/vite
+  - db/turso
+  - type/pwa
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # Aplikasi Kegiatan PKK
 
 ## Overview

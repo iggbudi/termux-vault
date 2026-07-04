@@ -1,3 +1,28 @@
+---
+type: project-detail
+status: active
+title: "EclipseTrack"
+slug: "eclipsetrack"
+updated: "2026-07-05"
+repo: ""
+source-path: "/var/www/eclipsetrack.my.id"
+production-url: "https://eclipsetrack.my.id"
+priority: medium
+tags:
+  - project
+  - vps
+  - lang/php
+  - db/supabase
+  - api/google-search-console
+  - type/content-site
+  - seo
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # EclipseTrack
 
 ## Overview

@@ -1,3 +1,28 @@
+---
+type: project-detail
+status: active
+title: "LK UKMs"
+slug: "lk-ukms"
+updated: "2026-07-05"
+repo: ""
+source-path: "/var/www/lk.pjdigital.top"
+production-url: "https://lk.pjdigital.top"
+priority: high
+tags:
+  - project
+  - vps
+  - lang/php
+  - db/mysql
+  - db/mariadb
+  - type/pwa
+  - type/internal-tool
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # LK UKMs
 
 ## Overview

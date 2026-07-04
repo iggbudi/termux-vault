@@ -1,3 +1,26 @@
+---
+type: project-detail
+status: active
+title: "Pi Meteora"
+slug: "pi-meteora"
+updated: "2026-07-05"
+repo: ""
+source-path: "~/pi-meteora-agents/"
+production-url: ""
+priority: medium
+tags:
+  - project
+  - lang/typescript
+  - type/multi-agent
+  - defi
+  - solana
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # Pi Multi-Agent Meteora DLMM
 
 ## Overview

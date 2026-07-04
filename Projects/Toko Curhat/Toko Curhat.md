@@ -1,3 +1,25 @@
+---
+type: project-detail
+status: archived
+title: "Toko Curhat"
+slug: "toko-curhat"
+updated: "2026-07-05"
+repo: ""
+source-path: "~/crewet/tokocurhat/"
+production-url: ""
+priority: low
+tags:
+  - project
+  - lang/deno
+  - db/deno-kv
+  - type/mini-app
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # Toko Curhat
 
 ## Overview

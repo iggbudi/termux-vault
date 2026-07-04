@@ -1,3 +1,28 @@
+---
+type: project-detail
+status: active
+title: "Ruang Belajar Terbuka"
+slug: "ruang-belajar-terbuka"
+updated: "2026-07-05"
+repo: "https://github.com/iggbudi/dwibudi.my.id.git"
+source-path: "/var/www/dwibudi.my.id"
+production-url: "https://dwibudi.my.id"
+priority: high
+tags:
+  - project
+  - vps
+  - lang/php
+  - db/mysql
+  - api/google-oauth
+  - api/openai
+  - type/lms
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # Ruang Belajar Terbuka
 
 ## Overview

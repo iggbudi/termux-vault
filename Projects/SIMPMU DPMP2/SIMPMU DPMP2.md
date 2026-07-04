@@ -1,3 +1,28 @@
+---
+type: project-detail
+status: active
+title: "SIMPMU DPMP2"
+slug: "simpmu-dpmp2"
+updated: "2026-07-05"
+repo: "https://github.com/iggbudi/dpmp2"
+source-path: "/var/www/dpmp2.dwibudi.my.id"
+production-url: "https://dpmp2.dwibudi.my.id"
+priority: high
+tags:
+  - project
+  - vps
+  - lang/php
+  - db/mysql
+  - db/mariadb
+  - ops/playwright
+  - type/quality-assurance
+links:
+  readme: "[[README]]"
+  techstack: "[[techstack]]"
+  roadmap: "[[roadmap]]"
+  index: "[[Meta/index]]"
+---
+
 # SIMPMU DPMP2
 
 ## Overview

@@ -24,12 +24,14 @@
 
 ## Tools
 - [[Git]] — Version control
+- [[Vite Configuration]] — Frontend build configuration
 - [[Termux]] — Android terminal emulator
 - [[Obsidian]] — Knowledge management
 
 ## Concepts
 - [[PWA (Progressive Web App)]]
 - [[Multi-Agent Orchestration]]
+- [[Pi SDK Documentation]]
 - [[DeFi (Decentralized Finance)]]
 - [[DLMM (Dynamic Liquidity Market Maker)]]
 

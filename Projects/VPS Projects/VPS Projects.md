@@ -43,7 +43,7 @@ Root: `/var/www`
 - **Stack**: PHP native, Composer, TCPDF, QR Code, PHPMailer, PhpSpreadsheet
 - **Docs ditemukan**: `README.md`, `AGENTS.md`, `.ai-team/README.md`, `.env.example`, `composer.json`
 - **Deskripsi**: Sistem proposal dan LPJ untuk UKM, termasuk approval chain, surat, pengumuman, PDF, WhatsApp notification, dan activity logs.
-- **Status dokumentasi vault**: ada memory/dokumentasi historis; perlu dibuat/ditautkan note detail di vault.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[LK UKMs]].
 
 ### [[X Creator Agent]]
 - **Path**: `/var/www/nanariset.my.id/xcreator`

@@ -1,6 +1,7 @@
 # 🗂️ All Projects
 
 ## Active
+- [[LK UKMs]] — Sistem proposal, LPJ, surat, dan approval UKM
 - [[SIMPMU DPMP2]] — Sistem Informasi Penjaminan Mutu DPMP2
 - [[VPS Projects]] — Inventaris project di `/var/www` VPS
 - [[PLK App]] — PWA untuk PKK (TypeScript + Vite + Turso)

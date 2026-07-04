@@ -25,6 +25,7 @@
 - [[Jupiter]] — Solana DEX aggregator
 
 ## Tools
+- [[Composer]] — Dependency manager PHP
 - [[Playwright]] — Headless E2E/regression testing
 - [[Git]] — Version control
 - [[Vite Configuration]] — Frontend build configuration

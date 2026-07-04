@@ -1,6 +1,6 @@
-# Iggbudi — Full-Stack Developer & AI Engineer
+# Dwi Budi Santoso — Full-Stack Developer & AI Engineer
 
-📍 Indonesia | 🔗 [github.com/iggbudi](https://github.com/iggbudi)
+📍 Indonesia | 📧 nayantaka@gmail.com | 🔗 [github.com/iggbudi](https://github.com/iggbudi)
 
 ---
 

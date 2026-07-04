@@ -1,6 +1,9 @@
 # 🗂️ All Projects
 
 ## Active
+- [[X Creator Agent]] — Dashboard multi-agent untuk reply explainer X
+- [[EclipseTrack]] — Website konten SEO jurnal informatika
+- [[Slack Multi-Agent Bridge]] — Slack coordination layer untuk Pi Coding Agent
 - [[Ruang Belajar Terbuka]] — Platform e-learning dwibudi.my.id
 - [[WA Dwibudi Multi-Device]] — WhatsApp multi-device marketing/gateway service
 - [[LK UKMs]] — Sistem proposal, LPJ, surat, dan approval UKM

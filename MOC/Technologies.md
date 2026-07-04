@@ -11,17 +11,26 @@
 - [[Deno]] — Modern runtime dengan built-in tools
 
 ## Frameworks & Libraries
+- [[Next.js]] — React framework untuk X Creator Agent
+- [[React]] — UI library untuk Next.js dashboard
+- [[Tailwind CSS]] — Utility-first CSS untuk UI cepat
+- [[Prisma]] — ORM untuk SQLite/DB schema X Creator
 - [[Express]] — Node.js HTTP framework
 - [[Baileys]] — WhatsApp multi-device protocol library
 - [[Vite]] — Build tool & dev server
 - [[Pi SDK]] — Multi-agent framework
 
 ## Databases
+- [[SQLite]] — Embedded database untuk task registry dan X Creator MVP
+- [[Supabase]] — Backend data/RPC untuk EclipseTrack
 - [[MySQL]] / [[MariaDB]] — Database relasional untuk aplikasi PHP VPS
 - [[Turso]] — SQLite-compatible cloud database
 - [[Deno KV]] — Built-in key-value store
 
 ## APIs & Services
+- [[Slack API]] — Slash command, Web API, Events API untuk bridge agent
+- [[Google Search Console]] — SEO indexing/performance integration
+- [[Brave Search API]] — Optional resource search untuk X Creator Agent
 - [[Google OAuth]] — Login mahasiswa via Google identity
 - [[OpenAI API]] — Generator materi/ringkasan berbasis AI
 - [[WhatsApp Gateway]] — Multi-device messaging/API integration
@@ -38,6 +47,7 @@
 - [[Obsidian]] — Knowledge management
 
 ## Concepts
+- [[SEO]] — Content/search optimization untuk EclipseTrack
 - [[PWA (Progressive Web App)]]
 - [[Multi-Agent Orchestration]]
 - [[Pi SDK Documentation]]

@@ -15,7 +15,7 @@ Root: `/var/www`
 - **Stack**: Node.js, TypeScript, Express, Pi Coding Agent, SQLite
 - **Docs ditemukan**: `README.md`, `AGENTS.md`, `.env.example`, `package.json`
 - **Deskripsi**: Slack slash command `/pi` sebagai coordination layer untuk Pi Coding Agent dan multi-agent workflow.
-- **Status dokumentasi vault**: perlu dibuat note detail.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[Slack Multi-Agent Bridge]].
 
 ### [[SIMPMU DPMP2]]
 - **Path**: `/var/www/dpmp2.dwibudi.my.id`
@@ -36,7 +36,7 @@ Root: `/var/www`
 - **Stack**: PHP, Supabase, static/article pages
 - **Docs ditemukan**: `.env.example`, `supabase/README.md`
 - **Deskripsi**: Website EclipseTrack dengan artikel, jurnal, kategori, auth, dan integrasi Supabase.
-- **Status dokumentasi vault**: perlu dibuat note detail.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[EclipseTrack]].
 
 ### [[LK UKMs]]
 - **Path**: `/var/www/lk.pjdigital.top`
@@ -50,7 +50,7 @@ Root: `/var/www`
 - **Stack**: Next.js, TypeScript, Tailwind CSS, SQLite, Prisma, Pi Coding Agent
 - **Docs ditemukan**: `README.md`, `.env.example`, `package.json`
 - **Deskripsi**: Dashboard MVP untuk membuat reply panjang/explainer di X/Twitter Premium dengan workflow multi-agent dan anti-slop review.
-- **Status dokumentasi vault**: perlu dibuat note detail.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[X Creator Agent]].
 
 ### [[WA Dwibudi Multi-Device]]
 - **Path**: `/var/www/wa.dwibudi.my.id`
@@ -82,8 +82,8 @@ Vault Obsidian ini sendiri.
 
 ## Next Actions
 
-- [ ] Pilih project prioritas untuk dibuat note detail.
-- [ ] Buat folder dan note per project di `Projects/`.
+- [x] Pilih project prioritas untuk dibuat note detail.
+- [x] Buat folder dan note per project di `Projects/`.
 - [ ] Tambahkan tech notes yang belum ada di `Knowledge/`.
 - [ ] Update [[MOC/Projects]] dan [[MOC/Technologies]].
 - [ ] Commit dan push perubahan vault.

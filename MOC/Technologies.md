@@ -1,6 +1,7 @@
 # 🛠️ Technologies
 
 ## Languages
+- [[PHP Native]] — Backend web native untuk SIMPMU/DPMP2 dan beberapa project VPS
 - [[TypeScript]] — Primary language untuk web development
 - [[JavaScript]] — Base language
 - [[Bash]] — Scripting & automation di Termux
@@ -14,6 +15,7 @@
 - [[Pi SDK]] — Multi-agent framework
 
 ## Databases
+- [[MySQL]] / [[MariaDB]] — Database relasional untuk aplikasi PHP VPS
 - [[Turso]] — SQLite-compatible cloud database
 - [[Deno KV]] — Built-in key-value store
 
@@ -23,6 +25,7 @@
 - [[Jupiter]] — Solana DEX aggregator
 
 ## Tools
+- [[Playwright]] — Headless E2E/regression testing
 - [[Git]] — Version control
 - [[Vite Configuration]] — Frontend build configuration
 - [[Termux]] — Android terminal emulator

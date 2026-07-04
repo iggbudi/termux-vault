@@ -1,6 +1,8 @@
 # 🗂️ All Projects
 
 ## Active
+- [[SIMPMU DPMP2]] — Sistem Informasi Penjaminan Mutu DPMP2
+- [[VPS Projects]] — Inventaris project di `/var/www` VPS
 - [[PLK App]] — PWA untuk PKK (TypeScript + Vite + Turso)
 - [[Pi Meteora]] — Multi-Agent Trading System (Pi SDK)
 
@@ -27,6 +29,6 @@
 ---
 
 ## Quick Stats
-- Total Projects: 3
-- Active: 2
+- Total Projects: 4+ vault projects, plus VPS inventory
+- Active: 2 documented + VPS inventory
 - Completed: 1

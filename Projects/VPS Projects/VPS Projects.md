@@ -73,6 +73,23 @@ Root: `/var/www`
 - **Deskripsi**: Dashboard MVP untuk membuat reply panjang/explainer di X/Twitter Premium dengan workflow multi-agent dan anti-slop review.
 - **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[X Creator Agent]].
 
+
+### [[Lelangu Bitcoin Chart]]
+- **Path**: `/var/www/lelangu.my.id`
+- **Domain**: `lelangu.my.id`
+- **Stack**: Static HTML/CSS/JavaScript, Tokocrypto public kline API, Nginx
+- **Docs ditemukan**: `public/index.html`, Nginx vhost config
+- **Deskripsi**: Dashboard chart Bitcoin/crypto Tokocrypto dengan indikator MA/RSI/MACD, alert lokal, watchlist, dan backtest sederhana.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[Lelangu Bitcoin Chart]].
+
+### [[Nana Research]]
+- **Path**: `/var/www/nanariset.my.id`
+- **Domain**: `nanariset.my.id`
+- **Stack**: PHP Native, Tailwind CDN, Font Awesome CDN, file-based JSON short links, Nginx reverse proxy
+- **Docs ditemukan**: `index.php`, `short-links.php`, `.htaccess`, Nginx vhost config
+- **Deskripsi**: Landing page jasa website/aplikasi UMKM dengan tool short URL dan proxy subapp `/xcreator` serta `/wa/`.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[Nana Research]].
+
 ### [[WA Dwibudi Multi-Device]]
 - **Path**: `/var/www/wa.dwibudi.my.id`
 - **Stack**: Node.js, Express, Baileys, MariaDB, Nodemailer, QR Code, XLSX
@@ -85,8 +102,8 @@ Root: `/var/www`
 ### `/var/www/lk.pjdigital.top-worktrees`
 Berisi banyak worktree/task branch untuk project [[LK UKMs]]. Ini sebaiknya tidak dianggap project terpisah, tapi sebagai workspace turunan.
 
-### `/var/www/html`, `/var/www/cgi-bin`, `/var/www/lelangu.my.id`
-Belum ada metadata utama yang cukup dari scan ringkas. Perlu inspeksi manual jika ingin didokumentasikan.
+### `/var/www/html`, `/var/www/cgi-bin`
+Direktori support/default server; belum dianggap project app terpisah dari scan ini.
 
 ### `/var/www/termux-vault`
 Vault Obsidian ini sendiri.
@@ -99,14 +116,16 @@ Vault Obsidian ini sendiri.
 4. [[WA Dwibudi Multi-Device]] — service WhatsApp aktif.
 5. [[Slack Multi-Agent Bridge]] — infrastruktur multi-agent.
 6. [[X Creator Agent]] — project agent/AI writing.
-7. [[EclipseTrack]] — bisa dibuat detail dengan skill/project context khusus.
+7. [[EclipseTrack]] — sudah dibuat detail dengan skill/project context khusus.
+8. [[Lelangu Bitcoin Chart]] — sisa vhost static chart dashboard.
+9. [[Nana Research]] — root domain nanariset.my.id dan shortener.
 
 ## Next Actions
 
 - [x] Pilih project prioritas untuk dibuat note detail.
 - [x] Buat folder dan note per project di `Projects/`.
 - [ ] Tambahkan tech notes yang belum ada di `Knowledge/`.
-- [ ] Update [[MOC/Projects]] dan [[MOC/Technologies]].
+- [x] Update [[MOC/Projects]] dan [[MOC/Technologies]].
 - [ ] Commit dan push perubahan vault.
 
 ## Related

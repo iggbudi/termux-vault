@@ -72,3 +72,8 @@
 1. [[Multi-Agent Orchestration]]
 2. [[Pi SDK]] advanced
 3. [[DeFi]] protocols
+
+
+## VPS Web Utilities
+- [[Nana Research]] — PHP landing page + file-based short URL tool
+- [[Lelangu Bitcoin Chart]] — Static JavaScript crypto dashboard + Tokocrypto API

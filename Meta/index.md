@@ -52,6 +52,8 @@ Index utama untuk semua project coding di vault ini.
 | [[Slack Multi-Agent Bridge]] | `/var/www/bot.pjdigital.top` | Node.js, TypeScript, Express, SQLite, Pi Coding Agent, Slack API | Multi-agent orchestration | Active Development |
 | [[EclipseTrack]] | `/var/www/eclipsetrack.my.id` | PHP Native, Supabase, Google Search Console, SEO tooling | SEO content site | Active / Content Site |
 | [[X Creator Agent]] | `/var/www/nanariset.my.id/xcreator` | Next.js, TypeScript, React, Tailwind CSS, Prisma, SQLite, Pi Coding Agent | AI writing tool | MVP / Experimental |
+| [[Lelangu Bitcoin Chart]] | `/var/www/lelangu.my.id` | HTML, CSS, JavaScript, Tokocrypto public API, localStorage | Crypto chart dashboard | Active / Static Site |
+| [[Nana Research]] | `/var/www/nanariset.my.id` | PHP Native, Tailwind CDN, Font Awesome, file-based JSON short links | Landing page & URL shortener | Active / Production |
 | [[PLK App]] | `~/belajar-typescript/` | Vite, TypeScript, Turso/libSQL, PWA | PKK activity app | Documented legacy project |
 | [[Pi Meteora]] | `~/pi-meteora-agents/` | TypeScript, Pi SDK, Solana, Meteora DLMM, Jupiter, Dexscreener | DeFi multi-agent decision layer | Active Development |
 | [[Toko Curhat]] | `~/crewet/tokocurhat/` | Deno, Deno KV, zero dependency | Anonymous curhat app | Completed |
@@ -65,6 +67,7 @@ Index utama untuk semua project coding di vault ini.
 - [[LK UKMs]] — PHP Native + MySQL/MariaDB + Composer + PWA
 - [[Ruang Belajar Terbuka]] — PHP SSR + MySQL/MariaDB + Google OAuth + OpenAI
 - [[EclipseTrack]] — PHP Native + Supabase + SEO tooling
+- [[Nana Research]] — PHP Native + file-based short URL storage
 
 ### TypeScript / JavaScript
 
@@ -73,6 +76,7 @@ Index utama untuk semua project coding di vault ini.
 - [[Pi Meteora]] — TypeScript + Pi SDK + Solana DeFi APIs
 - [[PLK App]] — TypeScript + Vite + PWA
 - [[WA Dwibudi Multi-Device]] — Node.js + Express + Baileys
+- [[Lelangu Bitcoin Chart]] — Vanilla JavaScript + static HTML/CSS + Tokocrypto API
 
 ### Deno
 
@@ -126,6 +130,12 @@ Index utama untuk semua project coding di vault ini.
 ### Content / SEO
 
 - [[EclipseTrack]]
+- [[Nana Research]]
+
+### Dashboards / Utilities
+
+- [[Lelangu Bitcoin Chart]]
+- [[Nana Research]]
 
 ### Learning / Experiments
 

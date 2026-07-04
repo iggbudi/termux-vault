@@ -1,6 +1,8 @@
 # 🗂️ All Projects
 
 ## Active
+- [[Nana Research]] — Landing page UMKM dan short URL di nanariset.my.id
+- [[Lelangu Bitcoin Chart]] — Static chart Tokocrypto dengan indikator dan alert lokal
 - [[X Creator Agent]] — Dashboard multi-agent untuk reply explainer X
 - [[EclipseTrack]] — Website konten SEO jurnal informatika
 - [[Slack Multi-Agent Bridge]] — Slack coordination layer untuk Pi Coding Agent
@@ -22,6 +24,17 @@
 
 ## By Technology
 
+### PHP
+- [[SIMPMU DPMP2]]
+- [[LK UKMs]]
+- [[Ruang Belajar Terbuka]]
+- [[EclipseTrack]]
+- [[Nana Research]]
+
+### JavaScript
+- [[Lelangu Bitcoin Chart]]
+- [[WA Dwibudi Multi-Device]]
+
 ### TypeScript
 - [[PLK App]]
 - [[Pi Meteora]]
@@ -35,6 +48,6 @@
 ---
 
 ## Quick Stats
-- Total Projects: 4+ vault projects, plus VPS inventory
-- Active: 2 documented + VPS inventory
+- Total Projects: 12 documented projects, plus VPS inventory
+- Active: 11 documented + VPS inventory
 - Completed: 1

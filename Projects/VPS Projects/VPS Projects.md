@@ -29,7 +29,7 @@ Root: `/var/www`
 - **Stack**: Web app PHP/site custom, Google OAuth, OpenAI API, file uploads
 - **Docs ditemukan**: `README.md`, `.env.example`
 - **Deskripsi**: Platform e-learning untuk materi perkuliahan, pendaftaran kelas, tugas, presensi, nilai, dan admin panel.
-- **Status dokumentasi vault**: perlu dibuat note detail.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[Ruang Belajar Terbuka]].
 
 ### [[EclipseTrack]]
 - **Path**: `/var/www/eclipsetrack.my.id`
@@ -57,7 +57,7 @@ Root: `/var/www`
 - **Stack**: Node.js, Express, Baileys, MariaDB, Nodemailer, QR Code, XLSX
 - **Docs ditemukan**: `README.md`, `AGENTS.md`, `.env.example`, `package.json`
 - **Deskripsi**: WhatsApp multi-device marketing service berbasis Baileys.
-- **Status dokumentasi vault**: perlu dibuat note detail.
+- **Status dokumentasi vault**: ✅ note detail sudah dibuat di [[WA Dwibudi Multi-Device]].
 
 ## Supporting / Special Directories
 

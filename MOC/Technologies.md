@@ -11,6 +11,8 @@
 - [[Deno]] — Modern runtime dengan built-in tools
 
 ## Frameworks & Libraries
+- [[Express]] — Node.js HTTP framework
+- [[Baileys]] — WhatsApp multi-device protocol library
 - [[Vite]] — Build tool & dev server
 - [[Pi SDK]] — Multi-agent framework
 
@@ -20,6 +22,9 @@
 - [[Deno KV]] — Built-in key-value store
 
 ## APIs & Services
+- [[Google OAuth]] — Login mahasiswa via Google identity
+- [[OpenAI API]] — Generator materi/ringkasan berbasis AI
+- [[WhatsApp Gateway]] — Multi-device messaging/API integration
 - [[Dexscreener]] — DEX analytics
 - [[Meteora DLMM]] — Solana liquidity protocol
 - [[Jupiter]] — Solana DEX aggregator

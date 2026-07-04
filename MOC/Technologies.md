@@ -1,0 +1,53 @@
+# 🛠️ Technologies
+
+## Languages
+- [[TypeScript]] — Primary language untuk web development
+- [[JavaScript]] — Base language
+- [[Bash]] — Scripting & automation di Termux
+
+## Runtimes
+- [[Node.js]] — JavaScript runtime
+- [[Deno]] — Modern runtime dengan built-in tools
+
+## Frameworks & Libraries
+- [[Vite]] — Build tool & dev server
+- [[Pi SDK]] — Multi-agent framework
+
+## Databases
+- [[Turso]] — SQLite-compatible cloud database
+- [[Deno KV]] — Built-in key-value store
+
+## APIs & Services
+- [[Dexscreener]] — DEX analytics
+- [[Meteora DLMM]] — Solana liquidity protocol
+- [[Jupiter]] — Solana DEX aggregator
+
+## Tools
+- [[Git]] — Version control
+- [[Termux]] — Android terminal emulator
+- [[Obsidian]] — Knowledge management
+
+## Concepts
+- [[PWA (Progressive Web App)]]
+- [[Multi-Agent Orchestration]]
+- [[DeFi (Decentralized Finance)]]
+- [[DLMM (Dynamic Liquidity Market Maker)]]
+
+---
+
+## Learning Path
+
+### Beginner
+1. [[TypeScript]] basics
+2. [[Vite]] setup
+3. [[Git]] fundamentals
+
+### Intermediate
+1. [[PWA]] development
+2. [[Turso]] database
+3. [[Deno]] runtime
+
+### Advanced
+1. [[Multi-Agent Orchestration]]
+2. [[Pi SDK]] advanced
+3. [[DeFi]] protocols

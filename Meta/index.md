@@ -84,6 +84,23 @@ Index utama untuk semua project coding di vault ini.
 | [[AI Study Buddy]] | `studdybuddy.socai.my.id` | `/var/www/studdybuddy.socai.my.id` | Laravel, MongoDB, Groq API | ai learning assistant | active |
 | [[VibePlan AI]] | `vibeplan.socai.my.id` | `/var/www/vibeplan.socai.my.id` | Next.js frontend, Laravel backend | ai planning app | active |
 
+## Current Nginx Vhost Projects — 2026-07-05
+
+Sumber scan: `/etc/nginx/conf.d/*.conf`. File backup `.bak` tidak dihitung. `sjmlelang.com` sudah ada sebagai [[SJM Lelangu]] dan tidak diduplikasi pada batch ini.
+
+| Project | Domain | Source / Root | Main Tech Stack | Type | Status |
+|---|---|---|---|---|---|
+| [[Biro Jurnal]] | `birojurnal.com`, `www.birojurnal.com` | `/var/www/birojurnal.com/public` | Static HTML, PHP-FPM enabled, Nginx | public website | active |
+| [[DIEF SHM Publisher]] | `dief.shmpublisher.com` | `/var/www/dief/public_html` | PHP, OJS-style app, PHP-FPM pool `dief`, Nginx | journal platform | active |
+| [[IBRAA]] | `ibraa.or.id`, `www.ibraa.or.id` | `/var/www/ibraa.or.id/public` | PHP custom app, PHP-FPM, Nginx | organization website/application | active |
+| [[JOGASTO SHM Publisher]] | `jogasto.shmpublisher.com` | `/var/www/jogasto.shmpublisher.com/current` | PHP, OJS-style app, PHP-FPM pool `ojs`, Nginx | journal platform | active |
+| [[JOHMPE SHM Publisher]] | `johmpe.shmpublisher.com` | `/var/www/johmpe.shmpublisher.com/current` | PHP, OJS-style app, PHP-FPM pool `ojs`, Nginx | journal platform | active |
+| [[JOISER SHM Publisher]] | `joiser.shmpublisher.com` | `/var/www/joiser.shmpublisher.com/current` | PHP, OJS-style app, PHP-FPM pool `ojs`, Nginx | journal platform | active |
+| [[JOSCEX SHM Publisher]] | `joscex.shmpublisher.com` | `/var/www/joscex` | PHP, OJS-style app, PHP-FPM pool `ojs`, Nginx | journal platform | active |
+| [[JOSRE SHM Publisher]] | `josre.shmpublisher.com` | `/var/www/josre.shmpublisher.com/current` | PHP, OJS-style app, PHP-FPM pool `ojs`, Nginx | journal platform | active |
+| [[Node PJDigital]] | `node.pjdigital.top` | `/var/www/ojs` | PHP, OJS-style app, publisher landing, Nginx | journal/publisher landing | active |
+| [[SHM My ID]] | `shm.my.id`, `www.shm.my.id` | `/var/www/shm.my.id/public` | PHP custom app, MariaDB/MySQL markers, PHP-FPM, Nginx | web application | active |
+
 ## By Language
 
 ### PHP
@@ -93,6 +110,16 @@ Index utama untuk semua project coding di vault ini.
 - [[Ruang Belajar Terbuka]] — PHP SSR + MySQL/MariaDB + Google OAuth + OpenAI
 - [[EclipseTrack]] — PHP Native + Supabase + SEO tooling
 - [[Nana Research]] — PHP Native + file-based short URL storage
+- [[Biro Jurnal]] — Static/PHP-enabled Nginx site
+- [[DIEF SHM Publisher]] — OJS-style PHP journal platform
+- [[IBRAA]] — PHP organization website/application
+- [[JOGASTO SHM Publisher]] — OJS-style PHP journal platform
+- [[JOHMPE SHM Publisher]] — OJS-style PHP journal platform
+- [[JOISER SHM Publisher]] — OJS-style PHP journal platform
+- [[JOSCEX SHM Publisher]] — OJS-style PHP journal platform
+- [[JOSRE SHM Publisher]] — OJS-style PHP journal platform
+- [[Node PJDigital]] — OJS-style PHP publisher landing
+- [[SHM My ID]] — Custom PHP web application
 
 ### TypeScript / JavaScript
 
@@ -140,6 +167,18 @@ Index utama untuk semua project coding di vault ini.
 - [[SIMPMU DPMP2]]
 - [[LK UKMs]]
 - [[Ruang Belajar Terbuka]]
+- [[IBRAA]]
+- [[SHM My ID]]
+
+### Journal / Publisher Platforms
+
+- [[DIEF SHM Publisher]]
+- [[JOGASTO SHM Publisher]]
+- [[JOHMPE SHM Publisher]]
+- [[JOISER SHM Publisher]]
+- [[JOSCEX SHM Publisher]]
+- [[JOSRE SHM Publisher]]
+- [[Node PJDigital]]
 
 ### AI / Multi-Agent
 

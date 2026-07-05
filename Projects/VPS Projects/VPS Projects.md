@@ -154,6 +154,30 @@ Sumber: `/etc/apache2/sites-enabled`, `/etc/apache2/sites-available`, dan marker
 - Beberapa project adalah reverse proxy ke service lokal; cek process manager/systemd/PM2 sebelum restart.
 - Jangan menyalin isi `.env` atau secret ke vault.
 
+## Nginx Vhost Scan — 2026-07-05
+
+Sumber: `/etc/nginx/conf.d/*.conf`. Server aktif saat scan: `nginx`, `php-fpm`, `php80-php-fpm`, `mariadb`, `postgresql`. `httpd`/Apache terpasang tetapi tidak aktif. File backup `.bak` tidak dihitung. `sjmlelang.com` sudah didokumentasikan sebagai [[SJM Lelangu]] dan tidak dibuat ulang pada batch ini.
+
+| Project | Domain | Source / Root | PHP-FPM / Proxy | Stack / Marker | Status |
+|---|---|---|---|---|---|
+| [[Biro Jurnal]] | `birojurnal.com`, `www.birojurnal.com` | `/var/www/birojurnal.com/public` | PHP-FPM enabled | Static HTML, Nginx, `index.html` | active |
+| [[DIEF SHM Publisher]] | `dief.shmpublisher.com` | `/var/www/dief/public_html` | `/run/php-fpm/dief.sock` | OJS-style PHP app, `README.md`, `config.inc.php`, `index.php` | active |
+| [[IBRAA]] | `ibraa.or.id`, `www.ibraa.or.id` | `/var/www/ibraa.or.id/public` | `/run/php-fpm/www.sock` | PHP app, `docs/README.md`, `public/index.php`, `.git` | active |
+| [[JOGASTO SHM Publisher]] | `jogasto.shmpublisher.com` | `/var/www/jogasto.shmpublisher.com/current` | `/run/php-fpm/ojs.sock` | OJS-style PHP app, `AGENTS.md`, `README.md`, `config.inc.php`, `index.php` | active |
+| [[JOHMPE SHM Publisher]] | `johmpe.shmpublisher.com` | `/var/www/johmpe.shmpublisher.com/current` | `/run/php-fpm/ojs.sock` | OJS-style PHP app, `README.md`, `config.inc.php`, `index.php` | active |
+| [[JOISER SHM Publisher]] | `joiser.shmpublisher.com` | `/var/www/joiser.shmpublisher.com/current` | `/run/php-fpm/ojs.sock` | OJS-style PHP app, `README.md`, `config.inc.php`, `index.php` | active |
+| [[JOSCEX SHM Publisher]] | `joscex.shmpublisher.com` | `/var/www/joscex` | `/run/php-fpm/ojs.sock` | OJS-style PHP app, `AGENTS.md`, `README.md`, `config.inc.php`, `index.php` | active |
+| [[JOSRE SHM Publisher]] | `josre.shmpublisher.com` | `/var/www/josre.shmpublisher.com/current` | `/run/php-fpm/ojs.sock` | OJS-style PHP app, `README.md`, `config.inc.php`, `index.php` | active |
+| [[Node PJDigital]] | `node.pjdigital.top` | `/var/www/ojs` | `/run/php-fpm/ojs.sock` | OJS-style PHP app, publisher landing at `/publisher/index.html` | active |
+| [[SHM My ID]] | `shm.my.id`, `www.shm.my.id` | `/var/www/shm.my.id/public` | `/run/php-fpm/www.sock` | Custom PHP app, `README.md`, `AGENTS.md`, `.env.example`, `schema.sql` | active |
+
+### Nginx Scan Notes
+
+- `config.inc.php` and `.env` files were treated as sensitive and not copied into vault notes.
+- OJS-style projects share pool `ojs`, except [[DIEF SHM Publisher]] which uses pool `dief`.
+- [[SHM My ID]] has source `AGENTS.md`; read it before editing the live project.
+- [[Node PJDigital]] is named `node`, but the active vhost root scanned as PHP/OJS, not a Node.js app.
+
 ## Next Actions
 
 - [x] Pilih project prioritas untuk dibuat note detail.

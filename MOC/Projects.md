@@ -70,7 +70,20 @@
 - [[AI Study Buddy]] — `studdybuddy.socai.my.id` (ai learning assistant)
 - [[VibePlan AI]] — `vibeplan.socai.my.id` (ai planning app)
 
+## Nginx Vhost Projects — 2026-07-05
+
+- [[Biro Jurnal]] — `birojurnal.com` (public website)
+- [[DIEF SHM Publisher]] — `dief.shmpublisher.com` (journal platform)
+- [[IBRAA]] — `ibraa.or.id` (organization website/application)
+- [[JOGASTO SHM Publisher]] — `jogasto.shmpublisher.com` (journal platform)
+- [[JOHMPE SHM Publisher]] — `johmpe.shmpublisher.com` (journal platform)
+- [[JOISER SHM Publisher]] — `joiser.shmpublisher.com` (journal platform)
+- [[JOSCEX SHM Publisher]] — `joscex.shmpublisher.com` (journal platform)
+- [[JOSRE SHM Publisher]] — `josre.shmpublisher.com` (journal platform)
+- [[Node PJDigital]] — `node.pjdigital.top` (journal/publisher landing)
+- [[SHM My ID]] — `shm.my.id` (custom PHP web application)
+
 ## Quick Stats
-- Total Projects: 12 existing documented projects + 19 current Apache vhost projects + VPS inventory
+- Total Projects: 12 existing documented projects + 19 current Apache vhost projects + 10 current Nginx vhost projects + VPS inventory
 - Active: 11 documented + VPS inventory
 - Completed: 1

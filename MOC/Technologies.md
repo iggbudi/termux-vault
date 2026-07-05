@@ -77,3 +77,15 @@
 ## VPS Web Utilities
 - [[Nana Research]] — PHP landing page + file-based short URL tool
 - [[Lelangu Bitcoin Chart]] — Static JavaScript crypto dashboard + Tokocrypto API
+- [[Biro Jurnal]] — Static/PHP-enabled Nginx public website
+- [[IBRAA]] — PHP app on Nginx + PHP-FPM
+- [[SHM My ID]] — Custom PHP app with MariaDB/MySQL markers
+
+## OJS / Journal Platforms
+- [[DIEF SHM Publisher]] — PHP journal vhost on dedicated PHP-FPM pool
+- [[JOGASTO SHM Publisher]] — PHP journal vhost on shared OJS PHP-FPM pool
+- [[JOHMPE SHM Publisher]] — PHP journal vhost on shared OJS PHP-FPM pool
+- [[JOISER SHM Publisher]] — PHP journal vhost on shared OJS PHP-FPM pool
+- [[JOSCEX SHM Publisher]] — PHP journal vhost on shared OJS PHP-FPM pool
+- [[JOSRE SHM Publisher]] — PHP journal vhost on shared OJS PHP-FPM pool
+- [[Node PJDigital]] — PHP/OJS publisher landing vhost

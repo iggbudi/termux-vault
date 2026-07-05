@@ -70,6 +70,16 @@ tokocurhat/
 - [[Minimal Web Architecture]]
 - [[Deno Runtime]]
 
+## Related Notes
+
+### Knowledge
+- [[Deno]] — Runtime utama
+- [[Deno KV]] — Database built-in
+
+### Related Projects
+- [[PLK App]] — Sama-sama mini app, tech stack berbeda
+- [[SafeSphere]] — Contoh web app sederhana lain
+
 ---
 Source: `~/crewet/tokocurhat/`
 Status: ✅ Completed

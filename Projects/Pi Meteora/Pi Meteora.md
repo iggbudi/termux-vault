@@ -120,6 +120,25 @@ pi-meteora-agents/
 - [[DeFi Trading Strategies]]
 - [[Pi SDK Documentation]]
 
+## Related Notes
+
+### Knowledge
+- [[TypeScript]] — Bahasa utama
+- [[Multi-Agent Patterns]] — Arsitektur multi-agent
+- [[Solana Development]] — Blockchain integration
+
+### Related Projects
+- [[Slack Multi-Agent Bridge]] — Sama-sama multi-agent architecture
+- [[X Creator Agent]] — Menggunakan Pi SDK juga
+- [[Lelangu Bitcoin Chart]] — Dashboard crypto
+- [[Dompet Bitget]] — Crypto wallet
+
+### Technologies
+- [[Pi SDK]]
+- [[Meteora DLMM]]
+- [[Jupiter]]
+- [[Dexscreener]]
+
 ---
 Source: `~/pi-meteora-agents/`
 Status: ✅ Active Development

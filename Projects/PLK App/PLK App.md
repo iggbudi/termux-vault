@@ -84,6 +84,21 @@ src/
 - [[Mobile-First Design]]
 - [[Vite Configuration]]
 
+## Related Notes
+
+### Knowledge
+- [[TypeScript]] — Bahasa utama
+- [[Vite]] — Build tool
+- [[Turso]] — Database (libSQL/SQLite)
+
+### Related Projects
+- [[Arisan PKK]] — Sama-sama app PKK, tech stack berbeda (Vite + TS)
+- [[Ruang Belajar Terbuka]] — Contoh PWA lain
+
+### Technologies
+- [[PWA]]
+- [[SQLite]]
+
 ## Progress Log
 Detail sprint ada di file `AGENTS.md` dan `SPRINT-REPAIR.md` di folder project.
 

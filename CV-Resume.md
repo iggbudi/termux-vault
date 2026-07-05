@@ -6,7 +6,7 @@
 
 ## Professional Summary
 
-Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, dan **AI/Multi-Agent Systems**. Berpengalaman membangun dan mengelola **30+ production applications** di VPS, mencakup sistem admin, LMS, WhatsApp/Telegram/Slack bots, DeFi tools, dan AI-powered apps. Terbiasa dengan siklus penuh development: dari arsitektur, coding, deployment, hingga maintenance server.
+Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, dan **AI/Multi-Agent Systems**. Berpengalaman membangun dan mengelola **40+ production applications** di VPS, mencakup sistem admin, LMS, WhatsApp/Telegram/Slack bots, DeFi tools, AI-powered apps, dan platform jurnal ilmiah. Terbiasa dengan siklus penuh development: dari arsitektur, coding, deployment, hingga maintenance server.
 
 ---
 
@@ -73,7 +73,7 @@ Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, 
 
 ---
 
-## Key Projects (30+ Production Apps)
+## Key Projects (40+ Production Apps)
 
 ### 🏛️ Institutional & Admin Systems
 
@@ -85,6 +85,10 @@ Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, 
 | **AIDIS Disposisi Surat** | Sistem disposisi surat | PHP, Composer |
 | **Al-Barokah** | Website & admin masjid | PHP, Composer |
 | **SIMPEL-U** | Web application | PHP |
+| **SHM My ID** | Platform manajemen SHM | PHP, MySQL/MariaDB |
+| **IBRAA** | Web application (ibraa.or.id) | PHP |
+| **Biro Jurnal** | Portal jurnal ilmiah (birojurnal.com) | PHP |
+| **Node PJDigital** | OJS-style journal system (node.pjdigital.top) | PHP, OJS |
 
 ### 🤖 AI & Multi-Agent Systems
 
@@ -124,12 +128,13 @@ Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, 
 | **Fetal PJD** | Prediksi risiko kehamilan (maternal/fetal) | Python, Flask, scikit-learn, SHAP, Gunicorn |
 | **Nana Research** | Landing page & URL shortener | PHP, Tailwind CDN, JSON storage |
 
-### 🌐 Content & SEO
+### 🌐 Content, SEO & Academic Publishing
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | **EclipseTrack** | SEO content site | PHP, Supabase, Google Search Console |
 | **Brainboard SocAI** | Laravel web app | Laravel, PHP, Composer, Vite |
+| **SHM Publisher Network** | 6 jurnal ilmiah (DIEF, JOGASTO, JOHMPE, JOISER, JOSCEX, JOSRE) | PHP, SHM platform |
 
 ### 🛡️ Social Impact
 
@@ -151,7 +156,7 @@ Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, 
 ## Infrastructure & Deployment
 
 - **Server**: VPS Ubuntu dengan Apache/Nginx reverse proxy
-- **Domains**: 20+ production domains (*.my.id, *.pjdigital.top, dll)
+- **Domains**: 30+ production domains (*.my.id, *.pjdigital.top, *.shmpublisher.com, dll)
 - **SSL**: Certbot HTTPS untuk semua production sites
 - **CI/CD**: Git-based deployment
 - **Monitoring**: systemd services, manual maintenance
@@ -170,7 +175,7 @@ Full-Stack Developer dengan spesialisasi dalam **PHP**, **TypeScript/Node.js**, 
 
 - **Problem Solver** — Mampu membangun solusi end-to-end dari ide hingga production
 - **Fast Learner** — Cepat adaptasi dengan teknologi baru (Deno, Next.js, Solana, dll)
-- **Self-Motivated** — Mandiri dalam mengelola 30+ project di VPS pribadi
+- **Self-Motivated** — Mandiri dalam mengelola 40+ project di VPS pribadi
 - **Systematic** — Terstruktur dalam dokumentasi (Obsidian vault, templates, MOC)
 
 ---

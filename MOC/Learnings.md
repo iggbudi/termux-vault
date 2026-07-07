@@ -1,3 +1,11 @@
+---
+updated: 2026-07-05 18:30
+tags:
+  - learning
+  - methodology
+  - sprint
+---
+
 # 💡 Learnings
 
 ## Web Development
@@ -60,6 +68,19 @@
 - Document progress di AGENTS.md
 - Review & refactor setelah setiap sprint
 - **Source**: [[PLK App]]
+
+### Sprint Execution Protocol
+- 10 langkah QA loop: implement → typecheck → test → Playwright → design → security → docs → cache → final verification
+- Sprint-based testing dengan regression suite per sprint
+- Refactor bertahap per sprint (strangler fig pattern)
+- **Source**: [[referensicoding]]
+
+### Quality Gates
+- Pre-sprint: gap analysis, prioritas, breakdown
+- During sprint: implementasi bertahap, unit test
+- Post-sprint: typecheck, test, Playwright QA, security check, docs
+- Cross-sprint: regression testing, progress log
+- **Source**: [[referensicoding]]
 
 ### Zero Dependency Philosophy
 - Fewer dependencies = easier maintenance

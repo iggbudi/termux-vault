@@ -2,11 +2,12 @@
 type: index
 slug: coding-vault-index
 name: Coding Vault Index
-updated: 2026-07-05
+updated: 2026-07-05 18:30
 tags:
   - index
   - coding-vault
   - projects
+  - methodology
 ---
 
 # Coding Vault Index
@@ -214,6 +215,7 @@ Sumber scan: `/etc/nginx/conf.d/*.conf`. File backup `.bak` tidak dihitung. `sjm
 - [[MOC/Learnings]] — learning map
 - [[VPS Projects]] — VPS project inventory
 - [[Meta/AGENTS]] — vault coding rules
+- [[referensicoding]] — referensi gaya coding & sprint methodology
 
 ## Maintenance Checklist
 
